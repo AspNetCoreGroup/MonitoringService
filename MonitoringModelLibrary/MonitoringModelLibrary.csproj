@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\packages\CommonLibrary\net8.0\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="ModelLibrary">
+      <HintPath>..\packages\CommonLibrary\net8.0\ModelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitLibrary">
+      <HintPath>..\packages\CommonLibrary\net8.0\RabbitLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+</Project>
