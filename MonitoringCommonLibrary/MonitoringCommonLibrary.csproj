@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MonitoringServiceModel\MonitoringServiceModel.csproj" />
     <ProjectReference Include="..\MonitoringModelLibrary\MonitoringModelLibrary.csproj" />
   </ItemGroup>
   <ItemGroup>

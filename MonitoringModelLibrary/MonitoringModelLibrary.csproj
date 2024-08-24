@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Model\**" />
+    <EmbeddedResource Remove="Model\**" />
+    <None Remove="Model\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="CommonLibrary">
       <HintPath>..\packages\CommonLibrary\net8.0\CommonLibrary.dll</HintPath>
     </Reference>
@@ -19,8 +25,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Model\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
